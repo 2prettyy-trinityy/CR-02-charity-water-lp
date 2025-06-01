@@ -150,10 +150,7 @@ body {
     text-align: center;     /* center text on small screens */
   }
 
-  .impact-text,
-  .impact-image {
-    width: 100%; /* full width on mobile */
-  }
+  
 
   .impact-text h2 {
     font-size: 1.5em;
@@ -162,7 +159,7 @@ body {
   .impact-text p {
     font-size: 1em;
   }
-  
+
 }
 .logo-box {
   position: absolute;
