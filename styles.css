@@ -13,7 +13,7 @@ body {
 
 /* Hero section */
 .hero {
-  background-image: url('hero.jpg');
+  background-image: url('img/4800_Ethiopia_2019_CG-.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -110,7 +110,7 @@ body {
     font-size: 0.95em;
     padding: 12px 24px;
   }
-  
+
 .hero-content {
   padding: 30px;
   text-align: center;
