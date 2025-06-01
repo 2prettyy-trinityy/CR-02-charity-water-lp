@@ -5,25 +5,29 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Promixa Nova', Avenir;
-  color: #1a1a1a;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* prevent whole-page scroll */
+  font-family: 'Proxima Nova', Avenir;
   background-color: #fff7e1;
+  color: #1a1a1a;
 }
+
 
 /* Hero section */
 .hero {
   background-image: url('https://raw.githubusercontent.com/2prettyy-trinityy/Charity-Water-Landing-Page/main/hero.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100vh; /* Fill full screen */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  overflow: hidden; /* prevent outside scroll */
 }
+
 
 .hero-border {
   width: 100%;
@@ -35,17 +39,17 @@ body {
 }
 
 .hero-content {
-  flex-grow: 1;
-  padding: 0 80px;
-  color: white;
+  flex: 1;
+  overflow-y: auto; /* scroll just this content if too tall */
+  padding: 30px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 700px;
-  text-align: left;
   gap: 24px;
-  overflow-y: auto;
+  max-width: 700px;
+  color: white;
 }
+
 
 .impact-text h2,
 .impact-text p {
@@ -63,7 +67,7 @@ body {
 }
 
 .top-border img {
-  height: 10px;
+  height: 30px;
   width: auto;
 }
 
