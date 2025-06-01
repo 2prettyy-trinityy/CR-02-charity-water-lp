@@ -106,7 +106,7 @@ body {
     font-size: 0.95em;
     padding: 12px 24px;
   }
-  
+
   .hero {
     align-items: center;
   }
@@ -142,4 +142,18 @@ body {
   .impact-image img {
     margin-top: 20px;
   }
+}
+.logo-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid #f9c300; /* Yellow border */
+  padding: 10px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.logo-box img {
+  width: 100px;
+  height: auto;
 }
