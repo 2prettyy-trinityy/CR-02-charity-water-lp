@@ -19,18 +19,19 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start; /* left-align */
   padding: 80px;
   position: relative;
   color: white;
-  border-top: 20px solid #ffffff;
-  border-bottom: 20px solid #fff7e1;
+  border-top: 40px solid #ffffff;
+  border-bottom: 40px solid #fff7e1;
   box-sizing: border-box;
 }
 
 .hero-content {
   max-width: 600px;
+  text-align: left; /* text is left-aligned */
 }
 
 .hero h1 {
@@ -104,6 +105,14 @@ body {
   .donate-btn {
     font-size: 0.95em;
     padding: 12px 24px;
+  }
+  
+  .hero {
+    align-items: center;
+  }
+
+  .hero-content {
+    text-align: center;
   }
 
 .hero-content {
