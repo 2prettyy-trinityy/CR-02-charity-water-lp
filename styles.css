@@ -104,13 +104,6 @@ html, body {
 }
 
 
-@media (max-width: 768px) {
-  .hero-content {
-    text-align: left; /* ← MAKE SURE THIS SAYS LEFT */
-    padding: 30px;
-  }
-}
-
 .logo-box {
   position: absolute;
   top: 20px;
@@ -119,4 +112,50 @@ html, body {
   padding: 10px;
   background-color: white;
   z-index: 1000;
+}
+
+/* -------------------------------
+   📱 RESPONSIVE DESIGN FOR MOBILE
+---------------------------------- */
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Allow hero to adjust height on small screens */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    padding: 40px 20px;
+    text-align: left;
+  }
+
+  .hero-content h1 {
+    font-size: 2em;
+  }
+
+  .hero-content p {
+    font-size: 1em;
+  }
+
+  .donate-btn {
+    padding: 12px 20px;
+    font-size: 0.95em;
+  }
+
+  .top-border img {
+    height: 18px;
+  }
+
+  .impact-content {
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  .impact-content h2 {
+    font-size: 1.5em;
+  }
+
+  .impact-content p {
+    font-size: 1em;
+  }
 }
